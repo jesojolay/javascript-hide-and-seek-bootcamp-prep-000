@@ -1,7 +1,6 @@
 function getFirstSelector(selector){
         return document.querySelector(selector);
 }
-console.log(getFirstSelector("#app"));
 function nestedTarget(){
     return document.querySelector("#nested").querySelector(".target");
 }
@@ -18,4 +17,3 @@ function deepestChild(){
     //  var grand = document.querySelector("#grand-node");
      console.log(document.querySelector(".hue"));
 }
-
