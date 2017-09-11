@@ -1,7 +1,7 @@
 function getFirstSelector(selector){
         return document.querySelector(selector);
 }
-
+console.log(getFirstSelector("#app"));
 function nestedTarget(){
     return document.querySelector("#nested").querySelector(".target");
 }
