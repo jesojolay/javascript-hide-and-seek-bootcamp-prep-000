@@ -18,3 +18,4 @@ function deepestChild(){
      var grand =document.querySelector("#grand-node")
      console.log(grand.querySelector("div"));
 }
+deepestChild();
