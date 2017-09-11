@@ -7,5 +7,5 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-    
+    var lis = document.querySelector("#app").querySelector(".ranked-list");
 }
